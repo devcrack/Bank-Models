@@ -1,0 +1,11 @@
+40    ;Todo lo que se encuentre despues de el punto y coma es un comentario
+0.2   ;Esto es otro comentario xD
+0.56  ;
+0.0000001 
+10
+0.1
+0
+1
+1000
+0
+30

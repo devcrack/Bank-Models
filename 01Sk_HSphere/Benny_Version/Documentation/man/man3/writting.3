@@ -1,0 +1,73 @@
+.TH "writting" 3 "Thu Nov 16 2017" "Version 1" "Hard_Spheere" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+writting \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions/Subroutines"
+
+.in +1c
+.ti -1c
+.RI "subroutine \fBsk_writting\fP (File_name)"
+.br
+.ti -1c
+.RI "subroutine \fBdynamic_writting_tau_dependant\fP (File_name, ik, it, first_time, last_time)"
+.br
+.ti -1c
+.RI "subroutine \fBdynamic_writting_tau_dependant_multi_k_tests\fP (File_name_Fc, File_name_Fs, ik, it, first_time, last_time, Fc_unit, Fs_unit)"
+.br
+.ti -1c
+.RI "subroutine \fBdynamic_writting_delz\fP (File_name, it, first_time, last_time)"
+.br
+.ti -1c
+.RI "subroutine \fBdynamic_writting_fc\fP (File_name, ik, it, first_time, last_time)"
+.br
+.ti -1c
+.RI "subroutine \fBdynamic_writting_fs\fP (File_name, ik, it, first_time, last_time)"
+.br
+.ti -1c
+.RI "subroutine \fBdynamic_writting_diff_msd\fP (File_name, it, first_time, last_time)"
+.br
+.ti -1c
+.RI "subroutine \fBscgle_run_info_file\fP (File_name, gamma_values, System_kind, i_k_test)"
+.br
+.in -1c
+.SH "Function/Subroutine Documentation"
+.PP 
+.SS "subroutine writting::dynamic_writting_delz (character(len=*), intent(in) File_name, integer, intent(in) it, logical, intent(in) first_time, logical, intent(in) last_time)"
+
+.PP
+Definition at line 191 of file writting_module\&.f90\&.
+.SS "subroutine writting::dynamic_writting_diff_msd (character(len=*), intent(in) File_name, integer, intent(in) it, logical, intent(in) first_time, logical, intent(in) last_time)"
+
+.PP
+Definition at line 314 of file writting_module\&.f90\&.
+.SS "subroutine writting::dynamic_writting_fc (character(len=*), intent(in) File_name, integer, intent(in) ik, integer, intent(in) it, logical, intent(in) first_time, logical, intent(in) last_time)"
+
+.PP
+Definition at line 232 of file writting_module\&.f90\&.
+.SS "subroutine writting::dynamic_writting_fs (character(len=*), intent(in) File_name, integer, intent(in) ik, integer, intent(in) it, logical, intent(in) first_time, logical, intent(in) last_time)"
+
+.PP
+Definition at line 273 of file writting_module\&.f90\&.
+.SS "subroutine writting::dynamic_writting_tau_dependant (character(len=*), intent(in) File_name, integer, intent(in) ik, integer, intent(in) it, logical, intent(in) first_time, logical, intent(in) last_time)"
+
+.PP
+Definition at line 52 of file writting_module\&.f90\&.
+.SS "subroutine writting::dynamic_writting_tau_dependant_multi_k_tests (character(len=*), intent(in) File_name_Fc, character(len=*), intent(in) File_name_Fs, integer, intent(in) ik, integer, intent(in) it, logical, intent(in) first_time, logical, intent(in) last_time, integer, intent(in) Fc_unit, integer, intent(in) Fs_unit)"
+
+.PP
+Definition at line 119 of file writting_module\&.f90\&.
+.SS "subroutine writting::scgle_run_info_file (character(len=*), intent(in) File_name, real * 8, dimension(:,:), intent(in) gamma_values, character(len=*), intent(in) System_kind, integer, intent(in) i_k_test)"
+
+.PP
+Definition at line 362 of file writting_module\&.f90\&.
+.SS "subroutine writting::sk_writting (character(len=*), intent(in) File_name)"
+
+.PP
+Definition at line 8 of file writting_module\&.f90\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Hard_Spheere from the source code\&.

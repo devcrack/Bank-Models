@@ -1,0 +1,15 @@
+cc = g++
+cflags = -Iheaders -c
+output = -o blds
+in_files = file_manage.cpp menu_things.cpp main.cpp
+
+mke_objects:
+	$(cc) $(in_files) $(cflags)
+
+run:
+	@echo "$(mke_objects)"
+	$(cc) $(mke_objects) $(output)
+
+clean:
+	rm ./*.o
+

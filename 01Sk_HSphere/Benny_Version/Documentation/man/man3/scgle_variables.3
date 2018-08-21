@@ -1,0 +1,58 @@
+.TH "scgle_variables" 3 "Thu Nov 16 2017" "Version 1" "Hard_Spheere" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+scgle_variables \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions/Subroutines"
+
+.in +1c
+.ti -1c
+.RI "subroutine \fBkc_ini\fP (Ialloc, kcalpha)"
+.br
+.ti -1c
+.RI "subroutine \fBcalc_lambdak\fP (Ialloc_s, Ialloc_k)"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "real *8, parameter \fBgamma_max\fP =1\&.0d10"
+.br
+.ti -1c
+.RI "real *8, dimension(:), allocatable \fBkc\fP"
+.br
+.ti -1c
+.RI "real *8, dimension(:,:,:), allocatable \fBlambdak\fP"
+.br
+.in -1c
+.SH "Function/Subroutine Documentation"
+.PP 
+.SS "subroutine scgle_variables::calc_lambdak (integer, intent(in) Ialloc_s, integer, intent(in) Ialloc_k)"
+
+.PP
+Definition at line 202 of file variables_modules\&.f90\&.
+.SS "subroutine scgle_variables::kc_ini (integer, intent(in) Ialloc, real * 8, intent(in) kcalpha)"
+
+.PP
+Definition at line 189 of file variables_modules\&.f90\&.
+.SH "Variable Documentation"
+.PP 
+.SS "real * 8, parameter scgle_variables::gamma_max =1\&.0d10"
+
+.PP
+Definition at line 183 of file variables_modules\&.f90\&.
+.SS "real * 8, dimension(:), allocatable scgle_variables::kc"
+
+.PP
+Definition at line 184 of file variables_modules\&.f90\&.
+.SS "real * 8, dimension(:,:,:), allocatable scgle_variables::lambdak"
+
+.PP
+Definition at line 185 of file variables_modules\&.f90\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Hard_Spheere from the source code\&.

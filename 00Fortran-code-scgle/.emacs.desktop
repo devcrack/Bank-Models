@@ -1,0 +1,96 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Mon Aug 21 20:07:26 2017
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22939 33742 802371 643000) (desktop . "206") "skarner@skarner-shared" nil nil ((((font-backend xft x) (font . "-PfEd-DejaVu Sans Mono-normal-normal-normal-*-12-*-*-*-m-0-iso10646-1") (font-parameter . "Monospace 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (foreground-color . "#d3d3d3") (background-color . "#000000") (mouse-color . "OrangeRed") (border-color . "gold") (screen-gamma) (line-spacing) (left-fringe . 10) (right-fringe . 11) (scroll-bar-foreground . "WhiteSmoke") (scroll-bar-background . "grey75") (menu-bar-lines . 1) (tool-bar-lines . 1) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#dcdccc") (sticky) (environment) (frameset--id . "6054-689A-04AA-EFDA") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (visibility . t) (height . 67) (width . 269) (left . 0) (top . 0)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 16) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 56) (min-pixel-width . 140) (min-pixel-height-ignore . 42) (min-pixel-width-ignore . 112) (min-pixel-height-safe . 14) (min-pixel-width-safe . 28)) hc (pixel-width . 1920) (pixel-height . 924) (total-width . 274) (total-height . 66) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 961) (pixel-height . 924) (total-width . 137) (total-height . 66) (normal-height . 1.0) (normal-width . 0.5) (buffer "program.f90" (selected . t) (hscroll . 0) (fringes 10 11 nil) (margins nil) (scroll-bars 16 3 t nil) (vscroll . 0) (dedicated) (point . 2560) (start . 1039))) (leaf (last . t) (pixel-width . 959) (pixel-height . 924) (total-width . 137) (total-height . 66) (normal-height . 1.0) (normal-width . 0.5) (buffer "*compilation*" (selected) (hscroll . 0) (fringes 10 11 nil) (margins nil) (scroll-bars 16 3 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("Allocatable" "kpoints" "decimation:" "D0M_ini" "hard_sphere_dynamics" "CHIDS" "Sys_Variable" "Sys_Var" "hard_sphere_mixture_dynamics" "CHIDO" "Calc_" "Static_Va" "rho" "Sys_Variables" "D0M_"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs" "~/Desktop/Repositories/sk-of-h_sphere/fortran_Tests/sk_hardSphere_System.f90" "~/Desktop/Repositories/sk-of-h_sphere/main.c" "~/Desktop/Repositories/sk-of-h_sphere/lib/sk_HSPhere_PrcsYervick.h" "~/Desktop/Repositories/fortran-code-scgle/SCGLE_module.f90" "~/Desktop/Repositories/fortran-code-scgle/structure_module.f90" "~/Desktop/Repositories/fortran-code-scgle/SCGLE_module.f90" "~/Desktop/Repositories/fortran-code-scgle/variables_modules.f90" "~/Desktop/Repositories/fortran-code-scgle/program_Datas/Call_Structure_Program.org" "~/" "~/Desktop/Repositories/" "~/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/skarner/Desktop/Repositories/fortran-code-scgle/program.f90"
+  "program.f90"
+  'f90-mode
+  '(auto-complete-mode yas-minor-mode helm-mode)
+  2560
+  '(2559 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-dos)))
+
+(desktop-create-buffer 206
+  "/home/skarner/Desktop/Repositories/fortran-code-scgle/structure_module.f90"
+  "structure_module.f90"
+  'f90-mode
+  '(auto-complete-mode yas-minor-mode helm-mode)
+  921
+  '(1613 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/home/skarner/Desktop/Repositories/fortran-code-scgle/variables_modules.f90"
+  "variables_modules.f90"
+  'f90-mode
+  '(auto-complete-mode yas-minor-mode helm-mode)
+  3823
+  '(2672 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/skarner/Desktop/Repositories/fortran-code-scgle/program_Datas/Call_Structure_Program.org"
+  "Call_Structure_Program.org"
+  'org-mode
+  '(auto-complete-mode yas-minor-mode helm-mode)
+  472
+  '(2079 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/home/skarner/Desktop/Repositories/fortran-code-scgle/SCGLE_module.f90"
+  "SCGLE_module.f90"
+  'f90-mode
+  '(auto-complete-mode yas-minor-mode helm-mode)
+  27358
+  '(27852 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/skarner/Desktop/Repositories/sk-of-h_sphere/fortran_Tests/sk_hardSphere_System.f90"
+  "sk_hardSphere_System.f90"
+  'f90-mode
+  '(auto-complete-mode yas-minor-mode helm-mode)
+  1665
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/home/skarner/Desktop/Repositories/sk-of-h_sphere/main.c"
+  "main.c"
+  'c-mode
+  '(abbrev-mode auto-complete-mode yas-minor-mode helm-mode)
+  2112
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+

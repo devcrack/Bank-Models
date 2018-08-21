@@ -1,0 +1,5 @@
+IN_FILES   = boo.in foo.in
+OUT_FILES = $(basename $(in_files))
+
+exe:
+	@echo "$(IN_FILES)	

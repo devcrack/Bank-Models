@@ -1,0 +1,13 @@
+# Compiled source #
+*.o
+*.mod
+*.out
+# Common Files #
+# *.png #
+# Emacs Back Up Files #
+*.hpp~
+*.cpp~
+*.f90~
+*.org~
+# Simples output Files #
+*.dat

@@ -1,0 +1,141 @@
+\hypertarget{class_file___manage}{}\section{File\+\_\+\+Manage Class Reference}
+\label{class_file___manage}\index{File\+\_\+\+Manage@{File\+\_\+\+Manage}}
+
+
+Clase para el manejo de archivos.  
+
+
+
+
+{\ttfamily \#include $<$file\+\_\+manage.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_file___manage_abc8dc9e06400e1b1e67a8d9dddef4393}{File\+\_\+\+Manage} ()
+\item 
+\hyperlink{class_file___manage_a0315b0bb47c3572e17978b367aef66b9}{File\+\_\+\+Manage} (const std\+::string \&str, bool truncate)
+\item 
+void \hyperlink{class_file___manage_a994b1789f2e06c194cd9e50c708197cd}{save\+\_\+sk} (double $\ast$sk, double $\ast$k, int Kpoints, int species)
+\item 
+bool \hyperlink{class_file___manage_a1e38c35a55c0ed0d5323a93e8aa2ef97}{read\+\_\+\+Sk} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \hyperlink{class_file___manage_a34a7f1a17609e115811efc140a07a018}{file\+\_\+name}
+\item 
+bool \hyperlink{class_file___manage_a598d159493673c0864cd0873816f33a8}{truncate\+\_\+file}
+\item 
+std\+::ofstream \hyperlink{class_file___manage_ab1ba9c8b82239cec993eff15781ec0be}{outfile}
+\item 
+std\+::ifstream \hyperlink{class_file___manage_a8c530b8325a65e290ea3db405f91234a}{infile}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Clase para el manejo de archivos. 
+
+Esta clase permite la manipulacion de archivos de tal manera que se pueden realizar las acciones basicas como son, abrir guardar y modificar un archivo. Estos archivos basicamente contienen los datos calulados del factor de estructura.
+
+\begin{DoxyAuthor}{Author}
+\+: delcranck 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+\+: 28/08/2017 
+\end{DoxyDate}
+
+
+Definition at line 15 of file file\+\_\+manage.\+hpp.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{File\+\_\+\+Manage@{File\+\_\+\+Manage}!File\+\_\+\+Manage@{File\+\_\+\+Manage}}
+\index{File\+\_\+\+Manage@{File\+\_\+\+Manage}!File\+\_\+\+Manage@{File\+\_\+\+Manage}}
+\subsubsection[{\texorpdfstring{File\+\_\+\+Manage()}{File_Manage()}}]{\setlength{\rightskip}{0pt plus 5cm}File\+\_\+\+Manage\+::\+File\+\_\+\+Manage (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_file___manage_abc8dc9e06400e1b1e67a8d9dddef4393}{}\label{class_file___manage_abc8dc9e06400e1b1e67a8d9dddef4393}
+Constructor default 
+
+Definition at line 4 of file file\+\_\+manage.\+cpp.
+
+\index{File\+\_\+\+Manage@{File\+\_\+\+Manage}!File\+\_\+\+Manage@{File\+\_\+\+Manage}}
+\index{File\+\_\+\+Manage@{File\+\_\+\+Manage}!File\+\_\+\+Manage@{File\+\_\+\+Manage}}
+\subsubsection[{\texorpdfstring{File\+\_\+\+Manage(const std\+::string \&str, bool truncate)}{File_Manage(const std::string &str, bool truncate)}}]{\setlength{\rightskip}{0pt plus 5cm}File\+\_\+\+Manage\+::\+File\+\_\+\+Manage (
+\begin{DoxyParamCaption}
+\item[{const std\+::string \&}]{str, }
+\item[{bool}]{truncate}
+\end{DoxyParamCaption}
+)}\hypertarget{class_file___manage_a0315b0bb47c3572e17978b367aef66b9}{}\label{class_file___manage_a0315b0bb47c3572e17978b367aef66b9}
+Constructor que puede especificar el archivo y si desea truncarse 
+
+Definition at line 7 of file file\+\_\+manage.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\index{File\+\_\+\+Manage@{File\+\_\+\+Manage}!read\+\_\+\+Sk@{read\+\_\+\+Sk}}
+\index{read\+\_\+\+Sk@{read\+\_\+\+Sk}!File\+\_\+\+Manage@{File\+\_\+\+Manage}}
+\subsubsection[{\texorpdfstring{read\+\_\+\+Sk()}{read_Sk()}}]{\setlength{\rightskip}{0pt plus 5cm}bool File\+\_\+\+Manage\+::read\+\_\+\+Sk (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_file___manage_a1e38c35a55c0ed0d5323a93e8aa2ef97}{}\label{class_file___manage_a1e38c35a55c0ed0d5323a93e8aa2ef97}
+Lee el sk 
+
+Definition at line 38 of file file\+\_\+manage.\+cpp.
+
+\index{File\+\_\+\+Manage@{File\+\_\+\+Manage}!save\+\_\+sk@{save\+\_\+sk}}
+\index{save\+\_\+sk@{save\+\_\+sk}!File\+\_\+\+Manage@{File\+\_\+\+Manage}}
+\subsubsection[{\texorpdfstring{save\+\_\+sk(double $\ast$sk, double $\ast$k, int Kpoints, int species)}{save_sk(double *sk, double *k, int Kpoints, int species)}}]{\setlength{\rightskip}{0pt plus 5cm}void File\+\_\+\+Manage\+::save\+\_\+sk (
+\begin{DoxyParamCaption}
+\item[{double $\ast$}]{sk, }
+\item[{double $\ast$}]{k, }
+\item[{int}]{Kpoints, }
+\item[{int}]{species}
+\end{DoxyParamCaption}
+)}\hypertarget{class_file___manage_a994b1789f2e06c194cd9e50c708197cd}{}\label{class_file___manage_a994b1789f2e06c194cd9e50c708197cd}
+Guarda el sk 
+
+Definition at line 15 of file file\+\_\+manage.\+cpp.
+
+
+
+\subsection{Member Data Documentation}
+\index{File\+\_\+\+Manage@{File\+\_\+\+Manage}!file\+\_\+name@{file\+\_\+name}}
+\index{file\+\_\+name@{file\+\_\+name}!File\+\_\+\+Manage@{File\+\_\+\+Manage}}
+\subsubsection[{\texorpdfstring{file\+\_\+name}{file_name}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string File\+\_\+\+Manage\+::file\+\_\+name\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_file___manage_a34a7f1a17609e115811efc140a07a018}{}\label{class_file___manage_a34a7f1a17609e115811efc140a07a018}
+Nombre del archivo, dicho nombre contiene la ruta del mismo 
+
+Definition at line 34 of file file\+\_\+manage.\+hpp.
+
+\index{File\+\_\+\+Manage@{File\+\_\+\+Manage}!infile@{infile}}
+\index{infile@{infile}!File\+\_\+\+Manage@{File\+\_\+\+Manage}}
+\subsubsection[{\texorpdfstring{infile}{infile}}]{\setlength{\rightskip}{0pt plus 5cm}std \+:: ifstream File\+\_\+\+Manage\+::infile\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_file___manage_a8c530b8325a65e290ea3db405f91234a}{}\label{class_file___manage_a8c530b8325a65e290ea3db405f91234a}
+Permite realizar operaciones de lectura 
+
+Definition at line 37 of file file\+\_\+manage.\+hpp.
+
+\index{File\+\_\+\+Manage@{File\+\_\+\+Manage}!outfile@{outfile}}
+\index{outfile@{outfile}!File\+\_\+\+Manage@{File\+\_\+\+Manage}}
+\subsubsection[{\texorpdfstring{outfile}{outfile}}]{\setlength{\rightskip}{0pt plus 5cm}std \+:: ofstream File\+\_\+\+Manage\+::outfile\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_file___manage_ab1ba9c8b82239cec993eff15781ec0be}{}\label{class_file___manage_ab1ba9c8b82239cec993eff15781ec0be}
+Permite realizar operaciones de escritura 
+
+Definition at line 36 of file file\+\_\+manage.\+hpp.
+
+\index{File\+\_\+\+Manage@{File\+\_\+\+Manage}!truncate\+\_\+file@{truncate\+\_\+file}}
+\index{truncate\+\_\+file@{truncate\+\_\+file}!File\+\_\+\+Manage@{File\+\_\+\+Manage}}
+\subsubsection[{\texorpdfstring{truncate\+\_\+file}{truncate_file}}]{\setlength{\rightskip}{0pt plus 5cm}bool File\+\_\+\+Manage\+::truncate\+\_\+file\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_file___manage_a598d159493673c0864cd0873816f33a8}{}\label{class_file___manage_a598d159493673c0864cd0873816f33a8}
+Bandera que determina si el archivo debe de ser truncado o no 
+
+Definition at line 35 of file file\+\_\+manage.\+hpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+headers/\hyperlink{file__manage_8hpp}{file\+\_\+manage.\+hpp}\item 
+\hyperlink{file__manage_8cpp}{file\+\_\+manage.\+cpp}\end{DoxyCompactItemize}

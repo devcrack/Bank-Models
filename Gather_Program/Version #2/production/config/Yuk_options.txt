@@ -1,0 +1,7 @@
+0        ; KMax :S
+1.0e-1   ; deltaK
+0.5e0    ; phi_eta 
+199      ; nKas o Kpoints
+3        ; Numero de Dimensiones
+1        ; NUmero de Especies .......Esto es un comentario :p
+

@@ -1,0 +1,80 @@
+\begin{theindex}
+
+  \item {\+\_\+date}
+    \subitem {File\+\_\+\+Manage}, \hyperpage{9}
+  \item {$\sim$\+File\+\_\+\+Manage}
+    \subitem {File\+\_\+\+Manage}, \hyperpage{8}
+
+  \indexspace
+
+  \item {Add\+\_\+a\+\_\+\+File\+\_\+to\+\_\+\+Directory\+\_\+\+Date}
+    \subitem {File\+\_\+\+Manage}, \hyperpage{8}
+
+  \indexspace
+
+  \item {create\+\_\+directory}
+    \subitem {File\+\_\+\+Manage}, \hyperpage{8}
+
+  \indexspace
+
+  \item {File\+\_\+\+Manage}, \hyperpage{7}
+    \subitem {\+\_\+date}, \hyperpage{9}
+    \subitem {$\sim$\+File\+\_\+\+Manage}, \hyperpage{8}
+    \subitem {Add\+\_\+a\+\_\+\+File\+\_\+to\+\_\+\+Directory\+\_\+\+Date}, 
+		\hyperpage{8}
+    \subitem {create\+\_\+directory}, \hyperpage{8}
+    \subitem {File\+\_\+\+Manage}, \hyperpage{8}
+    \subitem {file\+\_\+name}, \hyperpage{9}
+    \subitem {infile}, \hyperpage{9}
+    \subitem {outfile}, \hyperpage{9}
+    \subitem {read\+\_\+file\+\_\+line\+\_\+by\+\_\+line\+\_\+g}, 
+		\hyperpage{8}
+    \subitem {save\+\_\+sk}, \hyperpage{8}
+    \subitem {set\+\_\+date\+\_\+\+F\+I\+L\+E\+\_\+from\+\_\+\+Options\+\_\+file}, 
+		\hyperpage{9}
+    \subitem {truncate\+\_\+file}, \hyperpage{9}
+  \item {file\+\_\+name}
+    \subitem {File\+\_\+\+Manage}, \hyperpage{9}
+
+  \indexspace
+
+  \item {infile}
+    \subitem {File\+\_\+\+Manage}, \hyperpage{9}
+
+  \indexspace
+
+  \item {loop\+\_\+simple\+\_\+menu}
+    \subitem {main.\+cpp}, \hyperpage{11}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\+cpp}, \hyperpage{11}
+  \item {main.\+cpp}, \hyperpage{11}
+    \subitem {loop\+\_\+simple\+\_\+menu}, \hyperpage{11}
+    \subitem {main}, \hyperpage{11}
+  \item {Menu\+\_\+\+Class}, \hyperpage{10}
+
+  \indexspace
+
+  \item {outfile}
+    \subitem {File\+\_\+\+Manage}, \hyperpage{9}
+
+  \indexspace
+
+  \item {read\+\_\+file\+\_\+line\+\_\+by\+\_\+line\+\_\+g}
+    \subitem {File\+\_\+\+Manage}, \hyperpage{8}
+
+  \indexspace
+
+  \item {save\+\_\+sk}
+    \subitem {File\+\_\+\+Manage}, \hyperpage{8}
+  \item {set\+\_\+date\+\_\+\+F\+I\+L\+E\+\_\+from\+\_\+\+Options\+\_\+file}
+    \subitem {File\+\_\+\+Manage}, \hyperpage{9}
+
+  \indexspace
+
+  \item {truncate\+\_\+file}
+    \subitem {File\+\_\+\+Manage}, \hyperpage{9}
+
+\end{theindex}

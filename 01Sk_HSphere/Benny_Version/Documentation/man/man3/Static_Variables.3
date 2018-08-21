@@ -1,0 +1,94 @@
+.TH "Static_Variables" 3 "Thu Nov 16 2017" "Version 1" "Hard_Spheere" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Static_Variables \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <static_variables\&.hpp>\fP
+.PP
+Inherited by \fBHard_Sphere_Mono\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBStatic_Variables\fP (int _Ialloc_k, int _Ialloc_s, double dk)"
+.br
+.ti -1c
+.RI "\fB~Static_Variables\fP ()"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fB_kpoints\fP"
+.br
+.ti -1c
+.RI "double \fB_dk\fP"
+.br
+.ti -1c
+.RI "double * \fB_k\fP"
+.br
+.ti -1c
+.RI "double * \fBsk\fP"
+.br
+.ti -1c
+.RI "double * \fBski\fP"
+.br
+.ti -1c
+.RI "double * \fBck\fP"
+.br
+.ti -1c
+.RI "double * \fBhk\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 3 of file static_variables\&.hpp\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Static_Variables::Static_Variables (int _Ialloc_k, int _Ialloc_s, double dk)"
+This is the subroutine: Static_Variables_mem_alloc(kpoints,species) Static_Variables_mem_alloc(kpoints,species) ![X] Subroutine Static_Variables_mem_alloc(Ialloc_k,Ialloc_s) 
+.PP
+Definition at line 10 of file static_variables\&.cpp\&.
+.SS "Static_Variables::~Static_Variables ()"
+
+.PP
+Definition at line 23 of file static_variables\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "double Static_Variables::_dk\fC [protected]\fP"
+
+.PP
+Definition at line 11 of file static_variables\&.hpp\&.
+.SS "double* Static_Variables::_k\fC [protected]\fP"
+
+.PP
+Definition at line 12 of file static_variables\&.hpp\&.
+.SS "int Static_Variables::_kpoints\fC [protected]\fP"
+
+.PP
+Definition at line 10 of file static_variables\&.hpp\&.
+.SS "double* Static_Variables::ck\fC [protected]\fP"
+
+.PP
+Definition at line 16 of file static_variables\&.hpp\&.
+.SS "double* Static_Variables::hk\fC [protected]\fP"
+
+.PP
+Definition at line 17 of file static_variables\&.hpp\&.
+.SS "double* Static_Variables::sk\fC [protected]\fP"
+Guarda el conjunto de datos que conforman al sk de esfera dura\&. 
+.PP
+Definition at line 14 of file static_variables\&.hpp\&.
+.SS "double* Static_Variables::ski\fC [protected]\fP"
+Guarda el conjunto de datos que conforman a otro sk analogo de esfera dura\&. 
+.PP
+Definition at line 15 of file static_variables\&.hpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Hard_Spheere from the source code\&.

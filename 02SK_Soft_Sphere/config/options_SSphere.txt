@@ -1,0 +1,2 @@
+0.5906302;Fraccion de Volumen
+0.5906302;Temperatura Inicial

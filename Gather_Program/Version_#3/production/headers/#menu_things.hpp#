@@ -1,0 +1,11 @@
+class Menu_Class {
+public:
+  Menu_Class();
+  void print_preface();
+  void print_help();
+  int print_directory();x
+  void print_main_loop_menu();
+  void print_Hard_Sphere_options();
+  private:
+  
+};

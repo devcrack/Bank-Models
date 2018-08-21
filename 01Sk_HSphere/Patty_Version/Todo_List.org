@@ -1,0 +1,3 @@
+* TODO 
+** Implementing  up the task for create directories with the current date and add to File_Manage class.
+   See the scgle.h file from the Pure_C_Code/aging for solve this.

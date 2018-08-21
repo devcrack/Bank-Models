@@ -1,0 +1,121 @@
+.TH "Hard_Sphere_Dynamic" 3 "Thu Nov 16 2017" "Version 1" "Hard_Spheere" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Hard_Sphere_Dynamic \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <hard_sphere_dynamics\&.hpp>\fP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBHard_Sphere_Dynamic\fP (bool VW_op, bool Gamm_op, bool SK_writting_op)"
+.br
+.RI "\fIVariables del sistema\&. \fP"
+.ti -1c
+.RI "\fBHard_Sphere_Dynamic\fP (bool VW_op, bool Gamm_op, bool SK_writting_op, double vol_fraction)"
+.br
+.ti -1c
+.RI "\fB~Hard_Sphere_Dynamic\fP ()"
+.br
+.ti -1c
+.RI "void \fBprint_kpionts_value\fP ()"
+.br
+.ti -1c
+.RI "const int * \fBget_ik_test\fP ()"
+.br
+.ti -1c
+.RI "void \fBprint_ik_test\fP ()"
+.br
+.ti -1c
+.RI "void \fBstart\fP ()"
+.br
+.in -1c
+.SS "Protected Attributes"
+
+.in +1c
+.ti -1c
+.RI "bool \fB_VW_op\fP"
+.br
+.ti -1c
+.RI "bool \fB_Gamm_op\fP"
+.br
+.ti -1c
+.RI "bool \fB_SK_writting_op\fP"
+.br
+.ti -1c
+.RI "\fBHard_Sphere_Mono\fP \fB_mono_hard_sphere\fP"
+.br
+.ti -1c
+.RI "\fBFile_Manage\fP \fB_file\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Definition at line 8 of file hard_sphere_dynamics\&.hpp\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "Hard_Sphere_Dynamic::Hard_Sphere_Dynamic (bool VW_op, bool Gamm_op, bool SK_writting_op)"
+
+.PP
+Variables del sistema\&. Permite tener todas las variables del sistema encapsuladas en este modula, notar que esto no es optimo para los fines de este programa\&. 's: benigno zempeda & delcranck : 28/08/2017 Se inicializan todas las varibles del sistema
+.PP
+Constructor default 
+.PP
+Definition at line 6 of file hard_sphere_dynamics\&.cpp\&.
+.SS "Hard_Sphere_Dynamic::Hard_Sphere_Dynamic (bool VW_op, bool Gamm_op, bool SK_writting_op, double vol_fraction)"
+En este constructo se considera agregar la fraccion de volumen como parametro, dicha fraccion de volumen viene dada por el usuario\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIvol_fraction\fP Fraccion de volumen, determinada por el usuario\&. 
+.RE
+.PP
+
+.PP
+Definition at line 23 of file hard_sphere_dynamics\&.cpp\&.
+.SS "Hard_Sphere_Dynamic::~Hard_Sphere_Dynamic ()"
+
+.PP
+Definition at line 46 of file hard_sphere_dynamics\&.cpp\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "const int* Hard_Sphere_Dynamic::get_ik_test ()"
+
+.SS "void Hard_Sphere_Dynamic::print_ik_test ()"
+
+.SS "void Hard_Sphere_Dynamic::print_kpionts_value ()"
+
+.SS "void Hard_Sphere_Dynamic::start ()"
+
+.PP
+Definition at line 36 of file hard_sphere_dynamics\&.cpp\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "\fBFile_Manage\fP Hard_Sphere_Dynamic::_file\fC [protected]\fP"
+Permite tener un acceso rapido a las operaciones con archivos 
+.PP
+Definition at line 36 of file hard_sphere_dynamics\&.hpp\&.
+.SS "bool Hard_Sphere_Dynamic::_Gamm_op\fC [protected]\fP"
+
+.PP
+Definition at line 33 of file hard_sphere_dynamics\&.hpp\&.
+.SS "\fBHard_Sphere_Mono\fP Hard_Sphere_Dynamic::_mono_hard_sphere\fC [protected]\fP"
+Se encapsulan todas las operaciones para el factor de estructura 
+.PP
+Definition at line 35 of file hard_sphere_dynamics\&.hpp\&.
+.SS "bool Hard_Sphere_Dynamic::_SK_writting_op\fC [protected]\fP"
+
+.PP
+Definition at line 34 of file hard_sphere_dynamics\&.hpp\&.
+.SS "bool Hard_Sphere_Dynamic::_VW_op\fC [protected]\fP"
+Determina si esto tiene que escribirse en archivo, esto tiene que reescribirse, no es optimo 
+.PP
+Definition at line 32 of file hard_sphere_dynamics\&.hpp\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Hard_Spheere from the source code\&.
